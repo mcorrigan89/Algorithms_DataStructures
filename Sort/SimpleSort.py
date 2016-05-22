@@ -1,4 +1,4 @@
-def SimpleSort(array):
+def Sort(array):
     for i in range(0, len(array)):
         currentValue = array[i]
         currentIndex = i

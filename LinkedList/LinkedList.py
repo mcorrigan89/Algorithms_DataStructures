@@ -63,16 +63,3 @@ class LinkedList(object):
             else:
                 previous = current
                 current = current.GetNext()
-
-
-
-x = LinkedList()
-x.Insert("flerp", "derp")
-x.Insert("fizz", "buzz")
-x.Insert("one", "two")
-print(x.Size())
-print(x.Search("fizz"))
-x.Delete("fizz")
-print(x.Size())
-print(x.Search("fizz"))
-print(x.Search("one"))
