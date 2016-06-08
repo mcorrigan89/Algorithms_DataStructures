@@ -8,10 +8,3 @@ def Search(array, value):
             return Search(array[int(index - 1):], value)
         else:
             return int(index)
-
-
-
-
-list = [1,4,6,7,8,9]
-
-print(Search(list, 6))

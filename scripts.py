@@ -1,5 +1,5 @@
 from Sort import QuickSort, SimpleSort
-from TreeList import LinkedList
+from TreeList import LinkedList, BinaryTree
 
 list = [6,4,3,4,5,7,8,7,6,4,54,6,3,26,357,64,35,13,346,647,467,23,134,24,64,57,546,36,23,235,36,5868,9]
 
@@ -16,3 +16,10 @@ x.Delete("fizz")
 print(x.Size())
 print(x.Search("fizz"))
 print(x.Search("one"))
+
+b = BinaryTree.Tree()
+b.add(590)
+b.add(6)
+b.add(12)
+print(b.GetRoot().v)
+print(b.find(12))
